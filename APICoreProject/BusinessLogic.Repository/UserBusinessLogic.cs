@@ -43,7 +43,7 @@ namespace BusinessLogic.Repository
 
         public void Create(UserModel model)
         {
-            throw new NotImplementedException();
+            repository.Insert(ConvertToDBModel(model));
         }
 
         public void Delete(int id)

@@ -35,12 +35,14 @@ namespace DAL.Repository
 
         public void Insert(T obj)
         {
-            throw new NotImplementedException();
+            _db.Entry(obj).State = EntityState.Added;
+            Save();
+
         }
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _db.SaveChanges();
         }
 
         public void Update(T obj)
