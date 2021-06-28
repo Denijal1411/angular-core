@@ -31,8 +31,8 @@ namespace APICoreProject
         public void ConfigureServices(IServiceCollection services)
         { 
 
-            services.AddDbContext<DBContexts>(); 
-            //0037563 KOMENTAR O DBSET
+            services.AddDbContext<DBContexts>();
+            //0037563[#225] KOMENTAR O DBSET
             //Ovo je potrebno dodati kako bi radio dependency
             services.AddTransient<IUserBusinessLogic,UserBusinessLogic>();
             services.AddCors(options =>

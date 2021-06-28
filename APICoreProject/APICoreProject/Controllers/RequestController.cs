@@ -19,6 +19,7 @@ namespace APICoreProject.Controllers
     [EnableCors("AnotherPolicy")]
     public class RequestController : ControllerBase
     {
+        //0037563 ovde koristim dependency i to mi je ukljuceno u servise oznaceno rednim brojem #225
         private  IUserBusinessLogic userBusinessLogic;
         public RequestController(IUserBusinessLogic userBusinessLogic)
         {
