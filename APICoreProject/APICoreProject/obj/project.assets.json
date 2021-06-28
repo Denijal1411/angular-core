@@ -2296,31 +2296,42 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "DAL/1.0.0": {
+      "DAL.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "DAL.Models": "1.0.0",
+          "DAL.Repository.Interfaces": "1.0.0",
+          "DAL.Repository.Models": "1.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/DAL.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/DAL.Repository.dll": {}
         }
       },
-      "DAL.Models/1.0.0": {
+      "DAL.Repository.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/DAL.Models.dll": {}
+          "bin/placeholder/DAL.Repository.Interfaces.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.Models.dll": {}
+          "bin/placeholder/DAL.Repository.Interfaces.dll": {}
+        }
+      },
+      "DAL.Repository.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DAL.Repository.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.Repository.Models.dll": {}
         }
       }
     }
@@ -7754,20 +7765,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "DAL/1.0.0": {
+    "DAL.Repository/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL.csproj",
-      "msbuildProject": "../DAL/DAL.csproj"
+      "path": "../DAL/DAL.Repository.csproj",
+      "msbuildProject": "../DAL/DAL.Repository.csproj"
     },
-    "DAL.Models/1.0.0": {
+    "DAL.Repository.Interfaces/1.0.0": {
       "type": "project",
-      "path": "../DAL.Models/DAL.Models.csproj",
-      "msbuildProject": "../DAL.Models/DAL.Models.csproj"
+      "path": "../DAL.Repository.Interfaces/DAL.Repository.Interfaces.csproj",
+      "msbuildProject": "../DAL.Repository.Interfaces/DAL.Repository.Interfaces.csproj"
+    },
+    "DAL.Repository.Models/1.0.0": {
+      "type": "project",
+      "path": "../DAL.Models/DAL.Repository.Models.csproj",
+      "msbuildProject": "../DAL.Models/DAL.Repository.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DAL >= 1.0.0",
+      "DAL.Repository >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
@@ -7802,8 +7818,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.csproj"
+            "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.Repository.csproj": {
+              "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.Repository.csproj"
             }
           }
         }

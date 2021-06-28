@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CwlrvrrtTXLAkvqipWzd5nwn00Dk8DiP0uFHToBYifslpUEoYWc2VQkVb3cWpnYvM8tdLvSmbw5tct53ZxlbpA==",
+  "dgSpecHash": "ngP20zZwgeFtC4qN9p8pXWcuMcpj83WLDxMYr3l6ZPEnrVZ2QL87wlwmg9uidVt/jFbCujqEw2p1lLCzD+yrpA==",
   "success": true,
-  "projectFilePath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Models.csproj",
+  "projectFilePath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Repository.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

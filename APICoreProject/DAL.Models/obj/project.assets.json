@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Models.csproj",
-      "projectName": "DAL.Models",
-      "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Models.csproj",
+      "projectUniqueName": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Repository.Models.csproj",
+      "projectName": "DAL.Repository.Models",
+      "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\DAL.Repository.Models.csproj",
       "packagesPath": "C:\\Users\\Deni\\.nuget\\packages\\",
       "outputPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL.Models\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hXND+i6jufEXwrkrMxcvQZLhQ4tFoZ6bbDiXMv0w0bv/kMozJd6tcyuiJ3QNcDef1Yj3aEqavy58IHJOBxJyCg==",
+  "dgSpecHash": "gsT4J1/MLlvNLsT0KgWkzNXXMqbyNZFl3Kmqc8dMUJqc9XvJpPzHCKKL2IrHmZS7Ci8lL7bfDp7boYoMijniSg==",
   "success": true,
-  "projectFilePath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Deni\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Deni\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
