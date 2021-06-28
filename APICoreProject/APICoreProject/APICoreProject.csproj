@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic.Interfaces\BusinessLogic.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\BusinessLogic.Repository\BusinessLogic.Repository.csproj" />
     <ProjectReference Include="..\DAL\DAL.Repository.csproj" />
   </ItemGroup>
 

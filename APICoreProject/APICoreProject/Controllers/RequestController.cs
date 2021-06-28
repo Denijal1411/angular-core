@@ -1,4 +1,7 @@
-﻿using DAL;
+﻿using BusinessLogic.Repository;
+using BusinessLogic.Repository.Interfaces;
+using BusinessLogic.RepositoryModels;
+using DAL;
 using DAL.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
@@ -16,24 +19,23 @@ namespace APICoreProject.Controllers
     [EnableCors("AnotherPolicy")]
     public class RequestController : ControllerBase
     {
-        private DBContexts db;
-        public RequestController(DBContexts _db)
+        private  IUserBusinessLogic userBusinessLogic;
+        public RequestController(IUserBusinessLogic userBusinessLogic)
         {
-            db = _db;
+            this.userBusinessLogic = userBusinessLogic;
         }
         public async Task<IActionResult> GetAllUser()
         { 
-            var items = db.Users.ToList(); 
+            var items = userBusinessLogic.GetAll(); 
             return Ok(items);
         }
         [System.Web.Http.HttpPost]
         
-        public async Task<IActionResult> CreateUser(User user)
+        public async Task<IActionResult> CreateUser(UserModel user)
         {
             if (ModelState.IsValid)
-            { 
-                db.Users.Add(user);
-                db.SaveChanges();
+            {
+                userBusinessLogic.Create(user);
                 return Ok();
             }
             else

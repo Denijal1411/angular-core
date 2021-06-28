@@ -7,3 +7,6 @@ C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcorea
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.csproj.CoreCompileInputs.cache
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.dll
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.runtimeconfig.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.runtimeconfig.dev.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.genruntimeconfig.cache

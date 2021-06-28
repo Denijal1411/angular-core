@@ -6,3 +6,7 @@ C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\net
 C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\netcoreapp3.1\DAL.Repository.Interfaces.csproj.CoreCompileInputs.cache
 C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\netcoreapp3.1\DAL.Repository.Interfaces.dll
 C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\netcoreapp3.1\DAL.Repository.Interfaces.pdb
+C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\netcoreapp3.1\DAL.Repository.Interfaces.csprojAssemblyReference.cache
+C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\bin\Debug\netcoreapp3.1\DAL.Repository.Interfaces.runtimeconfig.json
+C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\bin\Debug\netcoreapp3.1\DAL.Repository.Interfaces.runtimeconfig.dev.json
+C:\MYProject\angular-core\APICoreProject\DAL.Repository.Interfaces\obj\Debug\netcoreapp3.1\DAL.Repository.Interfaces.genruntimeconfig.cache

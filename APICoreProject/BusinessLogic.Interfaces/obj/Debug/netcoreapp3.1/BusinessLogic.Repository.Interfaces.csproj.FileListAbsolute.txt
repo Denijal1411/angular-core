@@ -6,3 +6,12 @@ C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netc
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.csproj.CoreCompileInputs.cache
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.dll
 C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.csprojAssemblyReference.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\DAL.Repository.Models.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\DAL.Repository.Models.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.csproj.CopyComplete
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.runtimeconfig.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.runtimeconfig.dev.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.genruntimeconfig.cache

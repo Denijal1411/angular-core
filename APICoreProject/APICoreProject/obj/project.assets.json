@@ -2296,6 +2296,56 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "BusinessLogic.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BusinessLogic.Repository.Interfaces": "1.0.0",
+          "DAL.Repository": "1.0.0",
+          "DAL.Repository.Interfaces": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.Repository.dll": {}
+        }
+      },
+      "BusinessLogic.Repository.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BusinessLogic.RepositoryModels": "1.0.0",
+          "DAL.Repository.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.Repository.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.Repository.Interfaces.dll": {}
+        }
+      },
+      "BusinessLogic.RepositoryModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.RepositoryModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.RepositoryModels.dll": {}
+        }
+      },
       "DAL.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2317,6 +2367,11 @@
       "DAL.Repository.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
         "compile": {
           "bin/placeholder/DAL.Repository.Interfaces.dll": {}
         },
@@ -2327,6 +2382,11 @@
       "DAL.Repository.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
+        },
         "compile": {
           "bin/placeholder/DAL.Repository.Models.dll": {}
         },
@@ -7765,6 +7825,21 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "BusinessLogic.Repository/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic.Repository/BusinessLogic.Repository.csproj",
+      "msbuildProject": "../BusinessLogic.Repository/BusinessLogic.Repository.csproj"
+    },
+    "BusinessLogic.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic.Interfaces/BusinessLogic.Repository.Interfaces.csproj",
+      "msbuildProject": "../BusinessLogic.Interfaces/BusinessLogic.Repository.Interfaces.csproj"
+    },
+    "BusinessLogic.RepositoryModels/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic.Models/BusinessLogic.RepositoryModels.csproj",
+      "msbuildProject": "../BusinessLogic.Models/BusinessLogic.RepositoryModels.csproj"
+    },
     "DAL.Repository/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.Repository.csproj",
@@ -7783,6 +7858,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BusinessLogic.Repository >= 1.0.0",
+      "BusinessLogic.Repository.Interfaces >= 1.0.0",
       "DAL.Repository >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.7",
@@ -7818,6 +7895,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\MYProject\\angular-core\\APICoreProject\\BusinessLogic.Interfaces\\BusinessLogic.Repository.Interfaces.csproj": {
+              "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\BusinessLogic.Interfaces\\BusinessLogic.Repository.Interfaces.csproj"
+            },
+            "C:\\MYProject\\angular-core\\APICoreProject\\BusinessLogic.Repository\\BusinessLogic.Repository.csproj": {
+              "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\BusinessLogic.Repository\\BusinessLogic.Repository.csproj"
+            },
             "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.Repository.csproj": {
               "projectPath": "C:\\MYProject\\angular-core\\APICoreProject\\DAL\\DAL.Repository.csproj"
             }

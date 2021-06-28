@@ -1,6 +1,9 @@
+using BusinessLogic.Repository;
+using BusinessLogic.Repository.Interfaces;
 using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,14 +22,19 @@ namespace APICoreProject
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Configuration = configuration; 
         }
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        { 
+
+            services.AddDbContext<DBContexts>(); 
+            //0037563 KOMENTAR O DBSET
+            //Ovo je potrebno dodati kako bi radio dependency
+            services.AddTransient<IUserBusinessLogic,UserBusinessLogic>();
             services.AddCors(options =>
             {
                 options.AddPolicy(
@@ -39,8 +47,6 @@ namespace APICoreProject
                     });
             });
             services.AddControllers();
-            
-            services.AddDbContext<DBContexts>(x => x.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
