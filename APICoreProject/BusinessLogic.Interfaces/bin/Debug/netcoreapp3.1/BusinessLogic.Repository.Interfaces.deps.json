@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BusinessLogic.Repository.Interfaces/1.0.0": {
+        "runtime": {
+          "BusinessLogic.Repository.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogic.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

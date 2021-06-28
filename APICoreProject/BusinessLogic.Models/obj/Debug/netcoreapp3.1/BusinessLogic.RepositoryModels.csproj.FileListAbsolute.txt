@@ -1,0 +1,9 @@
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.deps.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\bin\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.csprojAssemblyReference.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.AssemblyInfoInputs.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.AssemblyInfo.cs
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.csproj.CoreCompileInputs.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Models\obj\Debug\netcoreapp3.1\BusinessLogic.RepositoryModels.pdb

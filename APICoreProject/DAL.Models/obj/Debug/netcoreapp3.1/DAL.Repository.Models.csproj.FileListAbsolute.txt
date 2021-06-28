@@ -1,0 +1,9 @@
+C:\MYProject\angular-core\APICoreProject\DAL.Models\bin\Debug\netcoreapp3.1\DAL.Repository.Models.deps.json
+C:\MYProject\angular-core\APICoreProject\DAL.Models\bin\Debug\netcoreapp3.1\DAL.Repository.Models.dll
+C:\MYProject\angular-core\APICoreProject\DAL.Models\bin\Debug\netcoreapp3.1\DAL.Repository.Models.pdb
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.csprojAssemblyReference.cache
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.AssemblyInfoInputs.cache
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.AssemblyInfo.cs
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.csproj.CoreCompileInputs.cache
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.dll
+C:\MYProject\angular-core\APICoreProject\DAL.Models\obj\Debug\netcoreapp3.1\DAL.Repository.Models.pdb

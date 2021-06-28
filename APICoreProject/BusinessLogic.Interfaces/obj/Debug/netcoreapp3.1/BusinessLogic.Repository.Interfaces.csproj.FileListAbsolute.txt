@@ -1,0 +1,8 @@
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.deps.json
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\bin\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.pdb
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.AssemblyInfoInputs.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.AssemblyInfo.cs
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.dll
+C:\MYProject\angular-core\APICoreProject\BusinessLogic.Interfaces\obj\Debug\netcoreapp3.1\BusinessLogic.Repository.Interfaces.pdb

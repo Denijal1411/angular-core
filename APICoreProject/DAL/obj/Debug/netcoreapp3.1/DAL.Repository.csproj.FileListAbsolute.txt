@@ -1,0 +1,17 @@
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.deps.json
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.json
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.runtimeconfig.dev.json
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.Interfaces.dll
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.Models.dll
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.Models.pdb
+C:\MYProject\angular-core\APICoreProject\DAL\bin\Debug\netcoreapp3.1\DAL.Repository.Interfaces.pdb
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.csprojAssemblyReference.cache
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfoInputs.cache
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.AssemblyInfo.cs
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CoreCompileInputs.cache
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.csproj.CopyComplete
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.dll
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.pdb
+C:\MYProject\angular-core\APICoreProject\DAL\obj\Debug\netcoreapp3.1\DAL.Repository.genruntimeconfig.cache
