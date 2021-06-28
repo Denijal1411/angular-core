@@ -6,10 +6,8 @@ import { AppComponent } from './app.component';
 import { SubmenuModule } from '../components/submenu/submenu/submenu.module';
 import { UserModule } from '../components/user/user/user.module';
 import {HttpClientModule} from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
-import { AddformComponent } from '../components/addform/addform.component';
-import { UserComponent } from '../components/user/user/user.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,7 +19,8 @@ import { UserComponent } from '../components/user/user/user.component';
     SubmenuModule,
     FormsModule,
     UserModule,
-    HttpClientModule,
+    HttpClientModule, 
+    NgbModule,ReactiveFormsModule
   //   RouterModule.forRoot([
   //     {
   //         path: 'app-addform',
