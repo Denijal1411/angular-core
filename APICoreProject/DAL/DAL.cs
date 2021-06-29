@@ -20,7 +20,10 @@ namespace DAL.Repository
          
         public void Delete(object Id)
         {
-            throw new NotImplementedException();
+            var id = Convert.ToInt32(Id);
+            var userForDelete = _db.Users.FirstOrDefault(x => x.ID == id);
+            _db.Entry(userForDelete).State = EntityState.Deleted;
+            Save();
         }
 
         public IEnumerable<T> GetAll()

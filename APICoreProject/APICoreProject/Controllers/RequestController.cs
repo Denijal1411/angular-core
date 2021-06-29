@@ -10,11 +10,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web.Http; 
+using System.Web.Http;
+using HttpDeleteAttribute = System.Web.Http.HttpDeleteAttribute;
 
 namespace APICoreProject.Controllers
 {
-    [Microsoft.AspNetCore.Mvc.Route("[controller]/[action]")]
+    [Microsoft.AspNetCore.Mvc.Route("{controller}/{action}/{id?}")]
     [ApiController]
     [EnableCors("AnotherPolicy")]
     public class RequestController : ControllerBase
@@ -24,7 +25,7 @@ namespace APICoreProject.Controllers
         public RequestController(IUserBusinessLogic userBusinessLogic)
         {
             this.userBusinessLogic = userBusinessLogic;
-        }
+        } 
         public async Task<IActionResult> GetAllUser()
         { 
             var items = userBusinessLogic.GetAll(); 
@@ -41,6 +42,11 @@ namespace APICoreProject.Controllers
             }
             else
                 return BadRequest();
+        }
+        [System.Web.Http.HttpDelete]
+        public async Task<IActionResult> DeleteUser(int id) {
+            userBusinessLogic.Delete(id);
+            return Ok();
         }
     }
 }

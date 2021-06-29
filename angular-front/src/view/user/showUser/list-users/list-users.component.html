@@ -17,6 +17,7 @@
                 <td>{{user.jmbg}}</td> 
                 <td>
                     <button type="button"  class="btn btn-warning"><i class="fa fa-edit"></i></button>
+                    <button type="button" (click)="remove(user.id)"  class="btn btn-danger"><i class="fa fa-remove"></i></button>
                 </td> 
             </tr>
         </tbody>

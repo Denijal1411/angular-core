@@ -18,7 +18,15 @@ export class ListUsersComponent implements OnInit {
     this.requestService.GetAllUser().then((x: User[]) => {
       this.userList = x }); 
   } 
-  
+  remove(id:number):void{ 
+    if(window.confirm('Are you sure to delete user')){
+      this.requestService.DeleteUser(id).then(()=> 
+      window.location.reload()
+      )
+
+    }
+
+  }
   ngOnInit(): void { 
     this.getUser();  
   }

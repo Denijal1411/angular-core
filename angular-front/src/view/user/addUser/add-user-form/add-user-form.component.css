@@ -11,3 +11,6 @@ input{
     padding: 8px 59px 37px 47px;
     margin-top: 52px;
 }
+.app-form-element-error-messages{
+    color:red;
+}

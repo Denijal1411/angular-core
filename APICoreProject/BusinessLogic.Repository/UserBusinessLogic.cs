@@ -48,7 +48,8 @@ namespace BusinessLogic.Repository
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            repository.Delete(id);
+            
         }
 
         public List<UserModel> GetAll()
