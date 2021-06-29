@@ -1,0 +1,25 @@
+<div class="container">
+    <table class="table table-dark">
+        <thead>
+          <tr> 
+            <th scope="col">ID</th>
+            <th scope="col">Ime</th>
+            <th scope="col">Prezime</th>
+            <th scope="col">JMBG</th>
+            <th scope="col">Akcija</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userList">
+                <td>{{user.id}} </td> 
+                <td>{{user.firstName}}</td> 
+                <td>{{user.lastName}}</td> 
+                <td>{{user.jmbg}}</td> 
+                <td>
+                    <button type="button"  class="btn btn-warning"><i class="fa fa-edit"></i></button>
+                </td> 
+            </tr>
+        </tbody>
+      </table> 
+</div>  
+   

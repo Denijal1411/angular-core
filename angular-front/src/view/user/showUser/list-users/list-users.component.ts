@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { User } from '../../../models/request.models';
-import { RequestService } from '../../../services/request.service';
+import { User } from '../../../../models/user/user.models';
+import { RequestService } from '../../../../services/request.service';
 
 @Component({
-  selector: 'app-user',
-  templateUrl: './user.component.html',
-  styleUrls: ['./user.component.css']
+  selector: 'app-list-users',
+  templateUrl: './list-users.component.html',
+  styleUrls: ['./list-users.component.css']
 })
-export class UserComponent implements OnInit {
+export class ListUsersComponent implements OnInit {
 
   constructor(private requestService:RequestService,private router: Router) { }
 
