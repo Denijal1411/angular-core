@@ -35,7 +35,11 @@ export class AddUserFormComponent implements OnInit {
   }
   private initForm() { 
     this.form.elements['firstName'] = new FormElement();  
+    this.form.elements['firstName'].state.mandatory=true;
+
     this.form.elements['lastName'] = new FormElement();
+    this.form.elements['lastName'].state.mandatory=true;
+
     this.form.elements['jmbg'] = new FormElement(); 
   }
 }

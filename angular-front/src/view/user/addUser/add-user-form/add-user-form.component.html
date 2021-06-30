@@ -5,26 +5,26 @@
   
             
             <div class="app-form-element mb14" [ngClass]="{error: form.elements['firstName'].error.required}">
-                <input type="text" 
-                placeholder="Ime: ex. Petar"  
-                class="form-control"  
-                [(ngModel)]="form.elements['firstName'].value"  
-                [ngClass]="{error: form.elements['firstName'].error.required}"/>
-                
                 <div class="app-form-element-error-messages">
                     <span *ngIf="form.elements['firstName'].error.required">Polje je obavezno za unos</span>
                 </div>
+                <input type="text" 
+                placeholder="Ime: ex. Petar"  
+                class="form-control "  
+                [(ngModel)]="form.elements['firstName'].value"  
+                [ngClass]="{error: form.elements['firstName'].error.required}"/>
+                
+                
             </div>
             <div class="app-form-element mb14" [ngClass]="{error: form.elements['lastName'].error.required}">
-              <input type="text" 
+            <div class="app-form-element-error-messages">
+                <span *ngIf="form.elements['lastName'].error.required">Polje je obavezno za unos</span>
+            </div>
+            <input type="text" 
               placeholder="Prezime: ex. Petrovic"  
               class="form-control"  
               [(ngModel)]="form.elements['lastName'].value"  
-              [ngClass]="{error: form.elements['lastName'].error.required}"/>
-              
-              <div class="app-form-element-error-messages">
-                  <span *ngIf="form.elements['lastName'].error.required">Polje je obavezno za unos</span>
-              </div>
+              [ngClass]="{error: form.elements['lastName'].error.required}"/> 
           </div>
    
           <div class="app-form-element mb14" [ngClass]="{error: form.elements['jmbg'].error.required}">

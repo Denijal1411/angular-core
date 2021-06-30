@@ -13,4 +13,9 @@ input{
 }
 .app-form-element-error-messages{
     color:red;
+    
+}
+.app-form-element-error-messages:input{
+    background-color: red;
+    
 }

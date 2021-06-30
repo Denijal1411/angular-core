@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
 import { ListUsersComponent } from '../view/user/showUser/list-users/list-users.component';
 import { AddUserFormComponent } from '../view/user/addUser/add-user-form/add-user-form.component';
+import { EditUserComponent } from 'src/view/user/editUser/edit-user/edit-user.component';
   
 @NgModule({
   declarations: [ //0037563[ANGULAR]
@@ -18,7 +19,8 @@ import { AddUserFormComponent } from '../view/user/addUser/add-user-form/add-use
     AppComponent,
     SubmenuComponent,
     ListUsersComponent,
-    AddUserFormComponent
+    AddUserFormComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,

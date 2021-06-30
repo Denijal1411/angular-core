@@ -1,3 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";   
 @import "~font-awesome/css/font-awesome.css";
+.input-error{
+    border:1px solid red;
+}
 
