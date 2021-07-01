@@ -47,6 +47,11 @@ namespace APICoreProject.Controllers
         public async Task<IActionResult> DeleteUser(int id) {
             userBusinessLogic.Delete(id);
             return Ok();
+        } 
+        public async Task<IActionResult> GetUser(int id) {
+            var items=userBusinessLogic.GetById(id);
+            return Ok(items);
         }
+
     }
 }

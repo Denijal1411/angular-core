@@ -6,8 +6,7 @@ import { RequestService } from '../../../../services/request.service';
 
 @Component({
   selector: 'app-add-user-form',
-  templateUrl: './add-user-form.component.html',
-  styleUrls: ['./add-user-form.component.css']
+  templateUrl: './add-user-form.component.html' 
 })
 export class AddUserFormComponent implements OnInit {
   constructor(private requestService:RequestService,private router: Router) { } 

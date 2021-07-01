@@ -3,4 +3,24 @@
 .input-error{
     border:1px solid red;
 }
-
+.position{
+    margin-left: auto;
+    margin-right: auto;
+    width: 633px;
+}
+input{
+    margin-bottom: 22px;
+}
+.app-form{
+    border: 2px solid #cae4e8;
+    padding: 8px 59px 37px 47px;
+    margin-top: 52px;
+}
+.app-form-element-error-messages{
+    color:red;
+    
+}
+.app-form-element-error-messages:input{
+    background-color: red;
+    
+}

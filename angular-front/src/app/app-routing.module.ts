@@ -11,6 +11,7 @@ const routes: Routes = [
     {path: 'app-add-user-form', component: AddUserFormComponent},
     {path: 'app-list-users', component: ListUsersComponent},
     {path: 'app-edit-user', component: EditUserComponent},
+    {path: 'app-edit-user/:id',component : EditUserComponent}
  
  ];
 

@@ -1,1 +1,44 @@
-<p>edit-user works!</p>
+<div class="container position">
+    <div class="mb14">
+        <div class="app-form">
+            <h5 class="text-center">Dodaj Korisnika</h5>
+  
+            
+           <form>
+            <div class="app-form-element mb14"> 
+                <input type="text"   
+                class="form-control "  
+                id="firstName"
+                placeholder="Ime: ex. Petar"
+                name="firstName"
+                [(ngModel)]="userModel.firstName"
+               /> 
+            </div>
+            <div class="app-form-element mb14"> 
+                <input type="text"   
+                class="form-control "  
+                placeholder="Prezime: ex. Petrovic"
+                id="lastName"
+                name="lastName"
+                [(ngModel)]="userModel.lastName"
+               /> 
+            </div>
+            <div class="app-form-element mb14"> 
+                <input type="text"   
+                class="form-control"   
+                id="jmbg"
+                placeholder="jmbg: ex. 12345678988"
+                name="jmbg"
+                [(ngModel)]="userModel.jmbg"
+               /> 
+            </div>
+           </form>
+   
+        <div class="text-center">
+          <button class="add-edit-button btn   btn-primary" >Sačuvaj</button>
+      </div>
+        </div>
+         
+  
+    </div>
+  </div>

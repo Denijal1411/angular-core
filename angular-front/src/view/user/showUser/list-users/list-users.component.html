@@ -16,7 +16,7 @@
                 <td>{{user.lastName}}</td> 
                 <td>{{user.jmbg}}</td> 
                 <td>
-                    <a  href="/app-edit-user"  class="btn btn-warning"><i class="fa fa-edit"></i></a>
+                    <a  href="/app-edit-user/{{user.id}}"  class="btn btn-warning"><i class="fa fa-edit"></i></a>
                     <button type="button" (click)="remove(user.id)"  class="btn btn-danger"><i class="fa fa-remove"></i></button>
                 </td> 
             </tr>

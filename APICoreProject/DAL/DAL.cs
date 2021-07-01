@@ -33,7 +33,8 @@ namespace DAL.Repository
 
         public T GetById(object Id)
         {
-            throw new NotImplementedException();
+            int id = Convert.ToInt32(Id);
+            return dbSet.Find(id);
         }
 
         public void Insert(T obj)

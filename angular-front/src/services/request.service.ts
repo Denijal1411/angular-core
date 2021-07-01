@@ -24,5 +24,10 @@ export class RequestService{
     }
     DeleteUser(Id: number) {  
       return   this.http.delete<number>(`${baseUrl}/DeleteUser/${Id}`).toPromise();
-  }
+    }
+    GetUserById(Id: number): Promise<User> {  
+      return this.http.get<User>(`${baseUrl}/GetUser/${Id}`).toPromise();
+       
+    
+    }
 }

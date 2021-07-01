@@ -64,7 +64,7 @@ namespace BusinessLogic.Repository
 
         public UserModel GetById(int id)
         {
-            throw new NotImplementedException();
+            return ConvertFromDBModel(repository.GetById(id));
         }
 
         public void Update(UserModel model)
